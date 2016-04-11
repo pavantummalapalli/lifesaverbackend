@@ -9,6 +9,9 @@ public class Tuple<A, B>
   {
     this.a = a;
     this.b = b;
+
+
+
   }
 
   public static <A, B> Tuple<A, B> create(A a, B b) {
